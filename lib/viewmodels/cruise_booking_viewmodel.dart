@@ -11,7 +11,7 @@ class CruiseBookingViewModel extends ChangeNotifier {
 
   int _starCount = 43;
   DateTime _selectedDate = DateTime.now();
-  String _selectedMode = 'Express Boat';
+  String _selectedMode = 'Private River Cruise';
   bool _isDarkMode = false;
 
   int get starCount => _starCount;

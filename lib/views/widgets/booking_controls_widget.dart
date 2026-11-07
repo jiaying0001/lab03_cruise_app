@@ -51,8 +51,13 @@ class BookingControlsWidget extends StatelessWidget {
                 DropdownButton<String>(
                   value: viewModel.selectedMode,
                   underline: const SizedBox(),
-                  items: ['Express Boat', 'Private Cruise', 'Sunset Cruise']
-                      .map((String mode) {
+                  items: [
+                    'Private River Cruise',
+                    'Sunset Cruise',
+                    'Sunrise Cruise',
+                    'Rural Cruise',
+                    'SMI Park Cruise'
+                  ].map((String mode) {
                     return DropdownMenuItem<String>(
                       value: mode,
                       child: Text(mode, style: const TextStyle(fontSize: 14)),
